@@ -7,7 +7,38 @@ main {
     display: flex;
     flex-direction: row;
     flex:auto;
+    background-color: white;
+    padding: 1rem;
+    gap: 1rem;
+
 }
+
+main h1, h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a, main p{
+    font-family:'Courier New', Courier, monospace ;
+}
+
+body header{
+    background-color:rgb(146, 177, 208);
+    height: 2em;
+}
+
+body header, footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 1rem;
+
+}
+
+table{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height:1.2rem;
+}
+
 
 article{
     flex:2;
@@ -17,4 +48,11 @@ article{
 aside{
     flex:1;
     overflow-y: auto; 
+}
+
+article, aside{
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    background-color: rgb(227, 211, 211);
 }

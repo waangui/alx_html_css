@@ -1,2 +1,5 @@
 # alx_html_css
-ALX HTML and CSS assignment
+ALX advanced CSS Assignment
+
+Tasks
+1. 

@@ -11,7 +11,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+i[class^="fa-"] {
+  font-family: 'Font Awesome 6 Free' !important;
+  font-weight: 900;
+}
 /* ================HEADER================*/
 
 body{
@@ -306,9 +309,9 @@ body section .vids-container {
     align-items: center;
 }
 
-/* Modified video card with positioning context */
+
 body section .video {
-    position: relative; /* Added for absolute positioning */
+    position: relative; 
     flex: 1 1 calc(25% - 2rem);
     min-width: 250px;
     display: flex;
@@ -334,7 +337,7 @@ body section div .preview {
     transform: translate(-50%, -50%);
     width: 64px;
     height: 64px;
-    z-index: 2; /* Ensure it appears above preview */
+    z-index: 2; 
     opacity: 0.9;
 }
 
@@ -347,9 +350,9 @@ body section div .stars{
 
 body section div .review-container {
     display: flex;
-    justify-content: space-between; /* Pushes items to opposite sides */
-    align-items: center; /* Vertically centers items */
-    margin: 0 1rem 1rem; /* Match your existing spacing */
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0 1rem 1rem;
 }
 
 

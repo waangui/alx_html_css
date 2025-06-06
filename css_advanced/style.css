@@ -42,11 +42,13 @@ header nav ul li{
 }
 
 header nav ul li a {
+    font-size: 12px;
+    font-weight: bold;
    text-decoration: none;
-   color:;
    padding: 2rem;
    text-align: left;
    color: #ffffff;
+   
 }
 
 header nav img{
@@ -93,6 +95,8 @@ body section .center-page{
 body main section div .small-header {
     margin: 30px;
     padding: 12px;
+    font-size: 16px;
+    line-height: 20px;
     justify-content: space-around;
     text-align: center;
     color:#ffffff;
@@ -156,13 +160,15 @@ body section div .avatar{
 
 body section div h3{
     font-weight: bold;
-    
+    font-size: 18px;
     
 }
 
 
 body section div .italics{
     font-style: italic;
+    line-height: 24px;
+    font-size: 16px;
     
 }
 
@@ -365,6 +371,7 @@ body section div .time {
 /* free membership */
 body .membership{
     width: 100vw;
+    
     padding: 8px;
     text-align: center;
     align-content: center;
@@ -379,7 +386,8 @@ body .membership h2{
     font-weight: lighter;
     text-align: center;
     line-height: 100%;
-    padding: 6rem;
+    padding-top: 6rem;
+    padding-bottom: 3.5rem;
 }
 
 body .membership .member h3{
@@ -409,9 +417,10 @@ body section div .smiley{
 
 body section .membership-container{
     display: flex;
-    gap: 2rem;
+
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 /* FAQ */

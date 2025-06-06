@@ -59,7 +59,7 @@ header nav img{
 /* background image */
 
 body .background-img{
-    background: url('/assets/CSS Advanced/background.png');
+    background: url('../assets/CSS Advanced/background.png');
     background-repeat: no-repeat;
     width: 100%; 
 }

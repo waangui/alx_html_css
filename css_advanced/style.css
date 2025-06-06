@@ -14,6 +14,12 @@
 
 /* ================HEADER================*/
 
+body{
+    font-family: "Source Sans Pro", sans-serif;
+    color:#ffffff;
+    
+}
+
 header nav {
     padding: 1.25rem 2.5rem 1.5rem 2.5rem;
     display: flex;
@@ -154,9 +160,6 @@ body section div h3{
     
 }
 
-body section div p{
-    
-}
 
 body section div .italics{
     font-style: italic;
@@ -165,17 +168,21 @@ body section div .italics{
 
 /* Quote section */
 
-body section .flex-cont{
-    width: 80%;
-    text-align: center;
-    padding: 2em;
+body .flex-cont{
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    padding: 80px 40px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #c271ff;
     
 }
 
 body div .column2{
     display: flex;
     align-items: center;
-    background-color: #c271ff;
     height: 50%;
     margin: 0;
     width: ;
@@ -184,60 +191,120 @@ body div .column2{
 
 
 body div section .column-image{
+    width: 160px;
+    height: 160px;
   flex:2;
   justify-content:center;
   display: flex;
+  flex-shrink: 0;
    
 }
 
 body div section img{
     width: 160px;
     height: 160px;
+    border-radius: 50%;
     object-fit: contain;
+}
+
+body div section h3{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33.6px;
+    margin-bottom: 4px;
 }
 
 body div section .column-text{
     flex:4;
+    max-width: 730px;
     font-size: 22px;
+    font-weight: 300;
+    line-height: 33.6px;
+    margin-bottom: 22px;
     color: #ffffff;
     justify-content: left;
+
 }
 
 /* most popular tutorials */
 body .tutorials{
     margin:100px;
-    padding: 8px;
-    text-align: center;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-body section h2{
-    padding: 6rem;
+body  .tutorials h2{
+    font-family: "Source Sans Pro", sans-serif;
     text-align: center;
     font-size: 32px;
-    font-weight: light;
+    font-weight: lighter;
+    line-height: 100%;
+    color:black;
+    padding-bottom: 6rem;
+}
+
+body section .vids-text{
+    color: rgba(7, 22, 41, 0.5);
+    line-height: 24px;
+    margin: 0 13px 14px 13px;
+
+
+}
+
+body section .video h3{
+    font-family: "Source Sans Pro", sans-serif;
+    color:#071629;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 18px 13px 8px 13px;
+    
+}
+
+body section .video h4{
+    color:#c271ff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 body section span {
     color:#c271ff;
     font-weight: bold;
 }
+
+/* author info */
+body section div .author-vid{
+    display:flex;
+    align-items: center;
+    margin: 0 13px 12px 13px;
+}
+
 body section div .avatar-small{
     height: 30px;
     width: 30px;
     object-fit: cover;
+    margin-right: 13px;
 }
 
-body section .vids-container{
+
+
+
+
+body section .vids-container {
     display: flex;
     gap: 2rem;
     justify-content: space-between;
     align-items: center;
-
 }
 
-body section .video{
-    flex: 1 1 calc(25% - 2rem); /* 4 items per row with gap */
-    min-width: 250px; /* Minimum width before wrapping */
+/* Modified video card with positioning context */
+body section .video {
+    position: relative; /* Added for absolute positioning */
+    flex: 1 1 calc(25% - 2rem);
+    min-width: 250px;
     display: flex;
     flex-direction: column;
     background: white;
@@ -246,14 +313,26 @@ body section .video{
     transition: transform 0.3s ease;
 }
 
-body section div img{
-    width: 255px;
-    height: 154px;
-    padding: 1rem 1rem 1rem 1rem;
-    
+
+body section div .preview {
+    width: 100%; 
+    height: 154px; 
+    display: block;
+    object-fit: cover; 
 }
 
-body section div i{
+.play-button {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    z-index: 2; /* Ensure it appears above preview */
+    opacity: 0.9;
+}
+
+body section div .stars{
     width: 15px;
     height:15px;
     margin: 0 0.75 0.75rem; 
@@ -285,37 +364,70 @@ body section div .time {
 
 /* free membership */
 body .membership{
-    margin:100px;
+    width: 100vw;
     padding: 8px;
     text-align: center;
+    align-content: center;
     background-color: #071629;
     color: #ffffff;
+    font-family: "Source Sans Pro", sans-serif;
+    justify-content: center;
+}
+
+body .membership h2{
+    font-size: 32px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 100%;
+    padding: 6rem;
+}
+
+body .membership .member h3{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-bottom: 13px;
+    margin-top: 20px;
+
+}
+
+body .membership .member p{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 300;
+    text-align: center;
+    width: 212px;
+    margin-bottom: 20px;
 }
 
 body section div .smiley{
-    height: 1.5rem;
-    width: 2.25rem;
+    height: 35.35px;
+    width: 43.67px;
+    margin-bottom: 8px;
     object-fit: contain;
 }
 
 body section .membership-container{
     display: flex;
     gap: 2rem;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 /* FAQ */
 body .faq{
+    font-family: "Source Sans Pro", sans-serif;
     margin:100px;
     padding: 8px;
     text-align: center;
+    color:#071629;
 
 }
 
 body section .faq-header{
     font-size: 60px;
     font-weight: lighter;
+    margin-bottom: 20px;
 }
 
 body section .faq-container{

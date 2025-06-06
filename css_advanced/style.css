@@ -1,0 +1,409 @@
+
+/* *,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 1.05em;
+} */
+
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* ================HEADER================*/
+
+header nav {
+    padding: 1.25rem 2.5rem 1.5rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    
+
+}
+
+header nav ul {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+header nav ul li{
+   list-style: none;
+}
+
+header nav ul li a {
+   text-decoration: none;
+   color:;
+   padding: 2rem;
+   text-align: left;
+   color: #ffffff;
+}
+
+header nav img{
+    width:auto;
+    height: auto;
+}
+
+/* background image */
+
+body .background-img{
+    background: url('/assets/CSS Advanced/background.png');
+    background-repeat: no-repeat;
+    width: 100%; 
+}
+
+body .bg-image{
+    background: transparent !important;
+}
+
+/* .bg-image {
+  background-image: url(assets/CSS Advanced/Object.png);  
+  width: 90rem;
+  height: 68rem;
+} */
+/* ================BODY================*/
+
+
+
+#big-text {
+    font-size: 120px;
+    font-weight: bold;
+    color:#ffffff;
+    
+}
+
+body section .center-page{
+    margin:100px;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+body main section div .small-header {
+    margin: 30px;
+    padding: 12px;
+    justify-content: space-around;
+    text-align: center;
+    color:#ffffff;
+
+}
+
+ .register{
+    background-color: #c271ff;
+    width: 162px;
+    height: 44px;
+    margin-top: 30px;
+    margin-bottom: 3rem;
+    border-radius: 3rem;
+    border:none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15) ;
+    font-size: 14px;
+    color:#ffffff;
+}
+
+body section div h2 #learn{
+    font-weight: bold;
+    color: #c271ff;
+
+}
+
+body section div h2 {
+    font-family: ;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 32px;
+    color:#ffffff;
+    margin-bottom: 2rem;
+}
+/* Columns */
+
+body section .column1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 85%;
+    margin: 0 auto;
+    padding-bottom: 4.75rem;
+}
+
+body section div .column-item{
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    color: #ffffff;
+}
+
+body section div .avatar{
+    width: 150px;
+    height:150px;
+    object-fit: cover;
+
+}
+
+body section div h3{
+    font-weight: bold;
+    
+    
+}
+
+body section div p{
+    
+}
+
+body section div .italics{
+    font-style: italic;
+    
+}
+
+/* Quote section */
+
+body section .flex-cont{
+    width: 80%;
+    text-align: center;
+    padding: 2em;
+    
+}
+
+body div .column2{
+    display: flex;
+    align-items: center;
+    background-color: #c271ff;
+    height: 50%;
+    margin: 0;
+    width: ;
+    gap: 0;
+}  
+
+
+body div section .column-image{
+  flex:2;
+  justify-content:center;
+  display: flex;
+   
+}
+
+body div section img{
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+}
+
+body div section .column-text{
+    flex:4;
+    font-size: 22px;
+    color: #ffffff;
+    justify-content: left;
+}
+
+/* most popular tutorials */
+body .tutorials{
+    margin:100px;
+    padding: 8px;
+    text-align: center;
+}
+
+body section h2{
+    padding: 6rem;
+    text-align: center;
+    font-size: 32px;
+    font-weight: light;
+}
+
+body section span {
+    color:#c271ff;
+    font-weight: bold;
+}
+body section div .avatar-small{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+}
+
+body section .vids-container{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+body section .video{
+    flex: 1 1 calc(25% - 2rem); /* 4 items per row with gap */
+    min-width: 250px; /* Minimum width before wrapping */
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+body section div img{
+    width: 255px;
+    height: 154px;
+    padding: 1rem 1rem 1rem 1rem;
+    
+}
+
+body section div i{
+    width: 15px;
+    height:15px;
+    margin: 0 0.75 0.75rem; 
+    
+}
+
+body section div .review-container {
+    display: flex;
+    justify-content: space-between; /* Pushes items to opposite sides */
+    align-items: center; /* Vertically centers items */
+    margin: 0 1rem 1rem; /* Match your existing spacing */
+}
+
+
+body section div .stars {
+  display: flex;
+  gap: 0.25rem;
+  color:#c271ff;
+}
+
+/* Duration text */
+body section div .time {
+  color:#c271ff ;
+  font-size: 14px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+/* free membership */
+body .membership{
+    margin:100px;
+    padding: 8px;
+    text-align: center;
+    background-color: #071629;
+    color: #ffffff;
+}
+
+body section div .smiley{
+    height: 1.5rem;
+    width: 2.25rem;
+    object-fit: contain;
+}
+
+body section .membership-container{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* FAQ */
+body .faq{
+    margin:100px;
+    padding: 8px;
+    text-align: center;
+
+}
+
+body section .faq-header{
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+body section .faq-container{
+    display:flex;
+    gap:5rem;
+}
+
+body .faq-column{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.faq-item{
+    padding: 1.5rem;
+    
+}
+
+.faq-item p {
+    text-align: justify;
+    font-size: 14px;
+    
+}
+
+.faq-item h3 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* FOOTER */
+
+body footer{
+    background-color: #071629;
+    padding: 1.25rem 2.5rem 1.5rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+body footer .copyright {
+    color: rgb(255, 255, 255,100,);
+    margin: 0;
+    padding: 0 2rem;
+    font-size: 0.9rem;
+    /* color: rgba(255,255,255,0.7); */
+}
+
+body footer .footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    color: white;
+}
+
+body footer .social-media{
+    display: flex;
+    gap: 1.5rem;
+}
+
+body footer .social-media i{
+   font-size: 1.2rem;
+    color: white;
+}
+
+body footer .footer-container{
+    display: flex;
+    justify-content: space-between; /* Pushes logo left, icons right */
+    align-items: center; 
+    margin: 0 auto;
+    padding: 0 2rem;
+}

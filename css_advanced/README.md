@@ -1,7 +1,13 @@
-# alx_html_css
-ALX advanced CSS Assignment
 
-Completed Tasks
+# ALX advanced CSS Assignment: Smilesschool Homepage
+
+## :clipboard: Objective
+- Practice integrating HTML and CSS to achieve a desired outcome
+- Practice converting a Figma file into a webpage
+- Using fonts and CSS stylings
+- Problem solve and debug code
+
+## :white_check_mark: Completed Tasks
 1. Create a New Directory
 Created css_advanced directory and added the relevant files to it
 
@@ -21,7 +27,10 @@ Created columns with flex to hold the quote and image.
 Created columns for videos, reviews and text.
 
 7. Membership
-Created 
-8. FAQ
+Created columns with filler text to hold infomation about membership.
 
-9. Footer
+9. FAQ
+Used flex to create columns with filler text for 4 questions and paragraph answers.
+
+11. Footer
+Placed the logo, copyright and social media icons in footer.

@@ -34,3 +34,7 @@ Used flex to create columns with filler text for 4 questions and paragraph answe
 
 11. Footer
 Placed the logo, copyright and social media icons in footer.
+
+
+# NOTE
+For the best viewing expereice with this work, copy the repo onto your device. 

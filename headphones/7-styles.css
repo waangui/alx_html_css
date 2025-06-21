@@ -171,6 +171,16 @@ body {
 }
 
 /* What We Do Section */
+
+.dark {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: #071629;
+}
+
+
 .what-we-do {
     background: #FFFFFF;
     padding: 110px 0;
@@ -386,12 +396,27 @@ body {
     }
 }
 
+/* Our Results */
+
+.light {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: white;
+}
+
+.results-content-container {
+    
+   
+}
 
 .our-results {
   background: url('assets/images/headphones_hero_2.jpg') no-repeat center top;
   background-size: cover;
   color: white;
   height: 1000px;
+
   padding: 180px 0 120px; 
   text-align: center;
 }
